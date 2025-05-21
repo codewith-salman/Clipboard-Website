@@ -1,0 +1,306 @@
+/* BASE RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: hsl(171, 66%, 44%);
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: url('./images/bg-header-desktop.png') no-repeat top center;
+  background-size: cover;
+  padding: 100px 20px 60px;
+}
+
+.header-logo {
+  margin-bottom: 40px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 15px 35px;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 3px 8px hsla(171, 66%, 44%, 0.5);
+}
+
+.btn-primary:hover {
+  background-color: hsl(171, 66%, 38%);
+}
+
+.btn-secondery {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 3px 8px hsla(233, 100%, 69%, 0.5);
+}
+
+.btn-secondery:hover {
+  background-color: hsl(233, 100%, 62%);
+}
+
+/* ABOUT */
+.about {
+  padding: 80px 20px;
+}
+
+.about-inner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.about-inner img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.card-group {
+  max-width: 450px;
+  text-align: left;
+}
+
+.card {
+  margin-bottom: 40px;
+}
+
+/* ACCESS */
+.access {
+  padding: 80px 20px;
+}
+
+.access img {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 40px;
+}
+
+/* FEATURES */
+.features {
+  padding: 80px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.features .card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.features .card {
+  background-color: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  flex: 1 1 calc(33.333% - 40px); /* Three per row with gap accounted */
+  max-width: 330px;
+  min-width: 280px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-head img {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.card-body h3 {
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 15px;
+}
+
+.card-body p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: hsl(201, 11%, 66%);
+}
+
+/* CLIENTS */
+.clients {
+  padding: 50px 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+/* DOWNLOAD */
+.download {
+  padding: 80px 20px;
+}
+
+/* FOOTER */
+footer {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 30px;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 50px;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 200px;
+  gap: 50px;
+  margin-left: 200px;
+}
+
+.footer-right a {
+  margin: 0 10px;
+}
+
+/* MEDIA QUERIES */
+
+/* Large tablets and below */
+@media (max-width: 1200px) {
+  .about-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-group {
+    text-align: center;
+  }
+}
+
+/* Tablets and below */
+@media (max-width: 992px) {
+  .features .card {
+    flex: 1 1 calc(50% - 40px); /* Two cards per row */
+  }
+}
+
+/* Mobile landscape and below */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .features .card {
+    flex: 1 1 100%; /* One card per row */
+  }
+
+  .clients {
+    gap: 30px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+
+  footer .links {
+    align-items: center;
+  }
+
+  .footer-right {
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+  }
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+  header {
+    padding: 60px 20px;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .access img,
+  .about-inner img {
+    max-width: 100%;
+  }
+
+  .features .card,
+  .features .card-group {
+    max-width: 100%;
+    text-align: center;
+  }
+}
