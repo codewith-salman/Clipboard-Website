@@ -3,13 +3,10 @@
 <br />
 <div align="center">
 
-<!-- 🔥 LOGO -->
-<img src="https://raw.githubusercontent.com/salman-webdevexp/assets/main/logo.png" alt="Clipboard Logo" width="120" />
-
 <br /><br />
 
 ## 📋 Clipboard – Clipboard Website  
-A clean and modern **Clipboard Utility Website / Landing Page** built using HTML, CSS, and JavaScript.  
+A clean and modern **Clipboard Utility Website / Landing Page** built using HTML, CSS.  
 Designed to showcase clipboard management features with a minimal, responsive, and user-friendly interface.
 
 </div>
