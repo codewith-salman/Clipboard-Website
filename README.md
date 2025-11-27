@@ -47,7 +47,6 @@ This project is perfect for:
 
 * [HTML5](https://html5.org/)  
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)  
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
 
 ---
 
