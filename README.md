@@ -18,7 +18,7 @@
 <br />
 
 <!-- 🔰 PROJECT LOGO -->
-<img src="Clipboard%20Website/images/desktop.jpg" alt="Clipboard Website Logo" width="120"/>
+<img src="Clipboard%20Website/images/logo.svg" alt="Clipboard Website Logo" width="120"/>
 
 <br />
 <br />
