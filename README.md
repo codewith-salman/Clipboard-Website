@@ -58,7 +58,6 @@ Built as a lightweight front-end concept, the site highlights core product secti
 
 Ideal for:
 - Product landing pages for productivity tools  
-- UI portfolio showcases  
 - Marketing pages for web / desktop utilities  
 - Practice for responsive layout and CTA design  
 
