@@ -21,7 +21,6 @@
 <img src="Clipboard%20Website/images/logo.svg" alt="Clipboard Website Logo" width="120"/>
 
 <br />
-<br />
 
 <h1 align="center">📋 Clipboard – Clipboard Website</h1>
 
@@ -63,8 +62,6 @@ Ideal for:
 - Marketing pages for web / desktop utilities  
 - Practice for responsive layout and CTA design  
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ---
 
 ## ✨ Features
@@ -77,8 +74,6 @@ Ideal for:
 - Lightweight and easy to customize  
 - Ready to add screenshots, demos, or links to downloads  
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ---
 
 ## 🛠️ Built With
@@ -86,8 +81,6 @@ Ideal for:
 - **HTML5**  
 - **CSS3**  
 - **JavaScript (Vanilla)**  
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
