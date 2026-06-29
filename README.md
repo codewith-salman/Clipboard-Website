@@ -69,7 +69,6 @@ Ideal for:
 - Clear product hero with CTA  
 - Feature highlights and usage sections  
 - Simple and readable typography  
-- Smooth hover interactions and subtle transitions  
 - Lightweight and easy to customize  
 - Ready to add screenshots, demos, or links to downloads  
 
